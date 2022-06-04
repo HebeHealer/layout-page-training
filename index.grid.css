@@ -1,0 +1,22 @@
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  overflow: hidden;
+  width: 100%;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 10px;
+}
+
+.center {
+  background: red;
+}
+.left {
+  background-color: #090;
+}
+.right {
+  background-color: #708;
+}

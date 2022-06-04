@@ -1,0 +1,28 @@
+html * {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: table;
+  overflow: hidden;
+  height: 10px;
+  width: 100%;
+}
+.container div {
+  box-sizing: border-box;
+  height: 100%;
+  display: table-cell;
+}
+
+.center {
+  background: red;
+}
+.left {
+  width: 10%;
+  background-color: #090;
+}
+.right {
+  width: 10%;
+  background-color: #708;
+}
